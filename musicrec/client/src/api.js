@@ -1,7 +1,9 @@
 import axios from 'axios';
 
-// API Configuration
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+// API Configuration - hardcoded for production
+const API_URL = 'https://museletter.onrender.com';
+
+console.log('API URL configured:', API_URL);
 
 // Create axios instance with base URL
 const api = axios.create({
