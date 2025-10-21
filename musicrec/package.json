@@ -1,0 +1,12 @@
+{
+  "name": "museletter",
+  "version": "1.0.0",
+  "description": "MuseLetter - Music recommendation app",
+  "scripts": {
+    "start": "cd server && npm start",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "build": "cd server && npm install"
+  }
+}
+
